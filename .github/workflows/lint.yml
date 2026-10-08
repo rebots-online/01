@@ -1,8 +1,7 @@
 name: Pre-commit
 
 on:
-  pull_request:
-    branches: [main]
+  workflow_dispatch:
 
 concurrency:
   group: "lint" # Concurrency group named "lint"
